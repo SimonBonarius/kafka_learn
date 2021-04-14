@@ -36,7 +36,7 @@ public class App {
 
         //create data client
         HttpResponse<JsonNode> response = Unirest.get("https://covid-19-data.p.rapidapi.com/totals")
-                .header("x-rapidapi-key", "bf98311abfmsh85654d474b8a3b8p117794jsnb567a10a1988")
+                .header("x-rapidapi-key", "xxxx")
                 .header("x-rapidapi-host", "covid-19-data.p.rapidapi.com")
                 .asJson();
 
